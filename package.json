@@ -28,8 +28,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "db:migrate": "sequelize-cli db:migrate",
-    "db:migrate:undo": "sequelize-cli db:migrate:undo",
+    "db:migrate2": "sequelize-cli db:migrate",
+    "db:migrate:undo2": "sequelize-cli db:migrate:undo",
     "ayudame": "eslint . --fix",
     "seeds": "sequelize-cli db:seed:all",
     "deploy": "node start.js",
