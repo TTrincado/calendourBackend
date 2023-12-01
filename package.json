@@ -22,7 +22,8 @@
     "pg": "^8.11.3",
     "sequelize": "^6.33.0",
     "sequelize-cli": "^6.6.1",
-    "yamljs": "^0.3.0"
+    "yamljs": "^0.3.0",
+    "yarn": "^1.22.21"
   },
   "scripts": {
     "dev": "nodemon src/index.js",
