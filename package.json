@@ -21,15 +21,15 @@
     "nodemon": "^3.0.1",
     "pg": "^8.11.3",
     "sequelize": "^6.33.0",
-    "sequelize-cli": "^6.6.1",
+    "sequelize-cli": "^6.6.2",
     "yamljs": "^0.3.0",
     "yarn": "^1.22.21"
   },
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "db:migrate2": "sequelize-cli db:migrate",
-    "db:migrate:undo2": "sequelize-cli db:migrate:undo",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:migrate:undo": "sequelize-cli db:migrate:undo",
     "ayudame": "eslint . --fix",
     "seeds": "sequelize-cli db:seed:all",
     "deploy": "node start.js",
